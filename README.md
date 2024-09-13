@@ -4,20 +4,39 @@
 Stramlit interface for Reflection2B - a Gemma2-2B-it prompt hack
 
 
-## Install dependencies in `venv`
+## Instructions
+
+- Clone the repo
+- browse inside the main directory
+
+### 1. Create a venv
+Python 3.11+
+
+### 2. Install dependencies in `venv`
 ```
 pip install streamlit==1.36.0 llama-cpp-python==0.2.85 tiktoken
 ```
 
-### Download the model inside `model` subdirectory
+### 3. Download the model inside `model` subdirectory
 - GGUF file from [https://huggingface.co/bartowski/gemma-2-2b-it-GGUF
 ](https://huggingface.co/bartowski/gemma-2-2b-it-GGUF
 )
 
-- main REPO [https://huggingface.co/google/gemma-2-2b-it
+- original Google Gemma REPO [https://huggingface.co/google/gemma-2-2b-it
 ](https://huggingface.co/google/gemma-2-2b-it
 )
 - FileName: **gemma-2-2b-it-Q5_K_M.gguf**
+
+### 4. Run the streamlit app
+from the terminal run
+```
+streamlit run .\HF_streamlitAPP.py
+```
+
+
+
+<img src='https://github.com/fabiomatricardi/Streamlit-Gemma2B-Reflection/raw/main/images/Gemma2B-reflectionLLM-streamlit.gif' width=900>
+
 
 
 ### MODEL CARD
