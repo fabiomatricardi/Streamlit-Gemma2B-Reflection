@@ -1,3 +1,5 @@
+<img src='https://github.com/fabiomatricardi/Streamlit-Gemma2B-Reflection/raw/main/images/logo_reflection2B.png' width=900>
+
 # Streamlit-Gemma2B-Reflection
 Stramlit interface for Reflection2B - a Gemma2-2B-it prompt hack
 
@@ -6,6 +8,17 @@ Stramlit interface for Reflection2B - a Gemma2-2B-it prompt hack
 ```
 pip install streamlit==1.36.0 llama-cpp-python==0.2.85 tiktoken
 ```
+
+### Download the model inside `model` subdirectory
+- GGUF file from [https://huggingface.co/bartowski/gemma-2-2b-it-GGUF
+](https://huggingface.co/bartowski/gemma-2-2b-it-GGUF
+)
+
+- main REPO [https://huggingface.co/google/gemma-2-2b-it
+](https://huggingface.co/google/gemma-2-2b-it
+)
+- FileName: **gemma-2-2b-it-Q5_K_M.gguf**
+
 
 ### MODEL CARD
 ```
